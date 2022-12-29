@@ -1,0 +1,30 @@
+body {
+  background: #dd5e89;
+  background: -webkit-linear-gradient(to left, #dd5e89, #f7bb97);
+  background: linear-gradient(to left, #dd5e89, #f7bb97);
+  min-height: 100vh;
+}
+
+.custom_btn {
+  width: 100%;
+  height: 10vh;
+}
+.item {
+  background-color: rgb(173, 252, 255);
+}
+
+.accordion button {
+  background: linear-gradient(to left, #a1d8f7, #27f8ff);
+}
+.accordion button img {
+  width: 30px;
+  height: 30px;
+  margin-left: 68%;
+}
+@media screen and (max-width: 483px) {
+  .accordion button img {
+    margin-top: -50px;
+  }
+}
+
+/* https://github.com/Siyadmon/Accordion_Task_29_12_22.git */
